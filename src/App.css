@@ -1,0 +1,45 @@
+.Timers {
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#display {
+  margin-bottom: 20px;
+}
+#display span {
+  font-size: 36px;
+}
+#buttons button:nth-child(2) {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
+}
+
+.App{
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+*{
+  background-color:rgb(54, 58, 61);
+  color: #fff;
+}
